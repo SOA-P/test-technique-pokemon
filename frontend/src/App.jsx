@@ -1,12 +1,9 @@
-import Home from "./pages/Home";
-
-import "./App.css";
+import DetailsPokemon from "@components/CardPokemon/DetailsPokemon";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <p>coucou</p>
+    <div>
+      <DetailsPokemon />
     </div>
   );
 }
